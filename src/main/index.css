@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  height: 88px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid gray;
+  /*padding-bottom: 24px;*/
+  align-items: center;
+}
+
+#body {
+  height: 100vh;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+#footer {
+  height: 120px;
+  background-color: gray;
+}
+
+#banner {
+  width: 100%;
+}
+
+/*#header-area {
+  width: 1024px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}*/
+
+.button {
+  font-family: "Libre Baskerville", serif;
+  font-size: 20px;
+  font-weight: 400;
+  width: 170px;
+  height: 80px;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 3px;
+}
+
+.button:hover {
+  background-color: gray;
+  color: white;
+}
+
+#Logo {
+  font-family: "Libre Baskerville", serif;
+  /* font-family: "Lora", serif; */
+  font-size: 38px;
+  font-weight: 700;
+}

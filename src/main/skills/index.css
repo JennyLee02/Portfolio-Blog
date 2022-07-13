@@ -1,8 +1,27 @@
 #skillsCard {
   position: relative;
-  bottom: 450px;
+  bottom: 430px;
   padding-left: 110px;
   padding-right: 110px;
   font-family: "Lora", serif;
   font-weight: 400;
+}
+
+.Languages {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Frameworks {
+  display: flex;
+  justify-content: space-around;
+}
+
+#express {
+  margin-top: 15px;
+}
+
+.Tools {
+  display: flex;
+  justify-content: space-around;
 }

@@ -3,7 +3,7 @@
 }
 
 .AboutMe {
-  padding-left: 130px;
+  padding-left: 120px;
   padding-right: 110px;
   font-family: "Lora", serif;
 }
@@ -11,6 +11,7 @@
 #AboutMeTitle {
   font-size: 24px;
   margin-bottom: 14px;
+  margin-top: 100px;
   font-family: "Libre Baskerville", serif;
   font-weight: bold;
 }
@@ -38,4 +39,23 @@
 .AboutText::first-letter {
   font-size: 24px;
   font-weight: 700;
+}
+
+#AboutBox {
+  display: flex;
+  margin-top: 50px;
+}
+
+#ProfilePic {
+  margin-left: 80px;
+  position: relative;
+  left: 150;
+}
+
+#SkillsTitle {
+  font-size: 24px;
+  margin-bottom: 14px;
+  margin-top: 40px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
 }

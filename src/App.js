@@ -1,6 +1,6 @@
 import "./App.css";
 import MainPageComponent from "./main/index.js";
-import AboutMe from "./main/aboutMe/index.js";
+import "antd/dist/antd.css";
 
 function App() {
   return <MainPageComponent />;

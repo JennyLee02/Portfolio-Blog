@@ -2,35 +2,40 @@
   white-space: pre-wrap;
 }
 
-.AboutMeTitle {
+.AboutMe {
+  padding-left: 130px;
+  padding-right: 110px;
+  font-family: "Lora", serif;
+}
+
+#AboutMeTitle {
   font-size: 24px;
   margin-bottom: 14px;
-  /* font-family: "Libre Baskerville", serif; */
-  font-family: "Lora", serif;
-  font-weight: 700;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
 }
 
 .AboutMeitems {
   display: flex;
   flex-direction: column;
   padding-bottom: 30px;
-  margin-left: 130px;
   position: relative;
-  bottom: 230px;
+  bottom: 300px;
 }
 
 .intro {
-  font-family: "Lora", serif;
-  /* font-family: "Libre Baskerville", serif; */
   font-weight: 400;
   font-size: 16px;
   margin-bottom: 10px;
 }
 
-.About {
-  /* font-family: "Libre Baskerville", serif; */
-  font-family: "Lora", serif;
+.AboutText {
   font-weight: 400;
   font-size: 16px;
   line-height: 34px;
+}
+
+.AboutText::first-letter {
+  font-size: 24px;
+  font-weight: 700;
 }

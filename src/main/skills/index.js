@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./index.css";
 import "antd/dist/antd.css";
 import { Card } from "antd";
-import JS from "./src/images/JavaScript-Logo.png";
 
 const tabList = [
   {
@@ -19,7 +18,7 @@ const tabList = [
   },
 ];
 const contentList = {
-  Languages: <img src={JS} alt="JS" />,
+  Languages: <img src="/images/JavaScript-Logo" />,
   Frameworks: <p>content2</p>,
   Tools: <p>content3</p>,
 };

@@ -18,7 +18,7 @@ const tabList = [
   },
 ];
 const contentList = {
-  Languages: <img src="/images/JavaScript-Logo" />,
+  Languages: <img src="/images/JavaScript-Logo.png" alt="JS" />,
   Frameworks: <p>content2</p>,
   Tools: <p>content3</p>,
 };

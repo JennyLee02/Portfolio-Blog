@@ -1,5 +1,6 @@
 import "./index.css";
 import AboutMe from "./aboutMe/index.js";
+import Skills from "./skills/index.js";
 import "antd/dist/antd.css";
 
 function MainPage() {
@@ -20,6 +21,7 @@ function MainPage() {
         </div>
       </div>
       <AboutMe />
+      <Skills />
     </div>
   );
 }
